@@ -49,6 +49,6 @@ class SingleBezierCurvePaint extends CustomPainter {
 
   @override
   bool shouldRepaint(SingleBezierCurvePaint oldDelegate) {
-    return true;
+    return false;
   }
 }
