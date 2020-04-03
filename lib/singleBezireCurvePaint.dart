@@ -31,14 +31,12 @@ class SingleBezierCurvePaint extends CustomPainter {
     Path path = Path();
     path.moveTo(0.0, yHeight / 2.0);
     waveCoordinateList.forEach((value) {
-      //  double y=(yHeight /2.0)+value[1];
       double y = value[1];
       if (y < 0.0) {
         y = 0.0;
       } else if (y >= yHeight) {
         y = yHeight;
       } else {
-        //  y=(yHeight /2.0)+value[1];
         y = value[1];
       }
       return path.lineTo(value[0], y);

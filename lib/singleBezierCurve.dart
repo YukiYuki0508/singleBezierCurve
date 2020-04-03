@@ -6,13 +6,13 @@ class SingleBezierCurve extends StatelessWidget {
   final double _addControllerY1_1 = 350.0 / 2.0;
   final double _addControllerX2_1 = 50.0;
   final double _addControllerY2_1 = 350.0 / 2.0;
-  final double _addControllerX3_1 = 211.0 * 5.0 / 9.0 + 50.0 - 50.0;
+  final double _addControllerX3_1 = 311.0 / 2.0 - 50.0;
   final double _addControllerY3_1 = 5.0;
-  final double _addControllerX4_1 = 211.0 * 5.0 / 9.0 + 50.0;
+  final double _addControllerX4_1 = 311.0 / 2.0;
   final double _addControllerY4_1 = 5.0;
-  final double _addControllerX5_1 = 211.0 * 5.0 / 9.0 + 50.0;
+  final double _addControllerX5_1 = 311.0 / 2.0;
   final double _addControllerY5_1 = 5.0;
-  final double _addControllerX6_1 = 211.0 * 5.0 / 9.0 + 50.0 + 50.0;
+  final double _addControllerX6_1 = 311.0 / 2.0 + 50.0;
   final double _addControllerY6_1 = 5.0;
   final double _addControllerX7_1 = 311.0 - 50.0;
   final double _addControllerY7_1 = 350.0 / 2.0;
